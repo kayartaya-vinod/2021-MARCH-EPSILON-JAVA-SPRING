@@ -86,5 +86,6 @@ public class Book {
 		System.out.println("Author    : " + this.author);
 		System.out.println("Publisher : " + this.publisher);
 		System.out.println("Price     : Rs." + this.price);
+		
 	}
 }
