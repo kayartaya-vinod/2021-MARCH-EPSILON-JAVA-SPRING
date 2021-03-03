@@ -1,0 +1,151 @@
+0    [main] 2021-03-03 09:21:51,934 INFO  com.epsilon.training.programs.CreatePersons  - c1 is Customer(id=1, name=Vinod, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=9731424784, email=vinod@vinod.co)
+1    [main] 2021-03-03 09:21:51,935 INFO  com.epsilon.training.programs.CreatePersons  - c2 is Customer(id=22, name=Anu, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=null, email=null)
+0    [main] 2021-03-03 09:22:28,256 DEBUG com.epsilon.training.programs.CreatePersons  - start of main
+2    [main] 2021-03-03 09:22:28,258 DEBUG com.epsilon.training.programs.CreatePersons  - created an Address instance
+2    [main] 2021-03-03 09:22:28,258 DEBUG com.epsilon.training.programs.CreatePersons  - initialized the address with values
+2    [main] 2021-03-03 09:22:28,258 DEBUG com.epsilon.training.programs.CreatePersons  - created c1 as new customer instance
+4    [main] 2021-03-03 09:22:28,260 INFO  com.epsilon.training.programs.CreatePersons  - c1 is Customer(id=1, name=Vinod, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=9731424784, email=vinod@vinod.co)
+4    [main] 2021-03-03 09:22:28,260 INFO  com.epsilon.training.programs.CreatePersons  - c2 is Customer(id=22, name=Anu, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=null, email=null)
+0    [main] 2021-03-03 09:22:41,636 DEBUG com.epsilon.training.programs.CreatePersons  - start of main
+1    [main] 2021-03-03 09:22:41,637 DEBUG com.epsilon.training.programs.CreatePersons  - created an Address instance
+1    [main] 2021-03-03 09:22:41,637 DEBUG com.epsilon.training.programs.CreatePersons  - initialized the address with values
+2    [main] 2021-03-03 09:22:41,638 DEBUG com.epsilon.training.programs.CreatePersons  - created c1 as new customer instance
+3    [main] 2021-03-03 09:22:41,639 INFO  com.epsilon.training.programs.CreatePersons  - c1 is Customer(id=1, name=Vinod, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=9731424784, email=vinod@vinod.co)
+3    [main] 2021-03-03 09:22:41,639 INFO  com.epsilon.training.programs.CreatePersons  - c2 is Customer(id=22, name=Anu, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=null, email=null)
+0    [main] 2021-03-03 09:22:54,170 INFO  com.epsilon.training.programs.CreatePersons  - c1 is Customer(id=1, name=Vinod, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=9731424784, email=vinod@vinod.co)
+1    [main] 2021-03-03 09:22:54,171 INFO  com.epsilon.training.programs.CreatePersons  - c2 is Customer(id=22, name=Anu, address=Address(houseNo=TF-1 (third floor), street=1st crs 1st mn, area=ISRO Lyt, city=Bangalore, state=Karnataka, country=India), phone=null, email=null)
+0    [main] 2021-03-03 10:16:27,597 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Person(name=null, email=null, city=null)
+0    [main] 2021-03-03 10:17:26,588 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee()
+1    [main] 2021-03-03 10:18:17,489 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee()
+0    [main] 2021-03-03 10:19:41,755 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee(id=0, salary=0.0, department=null)
+0    [main] 2021-03-03 10:20:47,427 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, Person=Person(name=John Doe, email=johndoe@xmpl.com, city=Dallas)]
+0    [main] 2021-03-03 10:27:47,854 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:27:47,856 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:27:47,856 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:27:47,856 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:27:47,856 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:27:47,856 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+0    [main] 2021-03-03 10:31:16,986 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+148167 [main] 2021-03-03 10:33:45,153 DEBUG com.epsilon.training.entity.Person  - Person() called
+0    [main] 2021-03-03 10:34:18,298 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+41949 [main] 2021-03-03 10:35:00,247 DEBUG com.epsilon.training.entity.Person  - Person() called
+66587 [main] 2021-03-03 10:35:24,885 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+77464 [main] 2021-03-03 10:35:35,762 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+122544 [main] 2021-03-03 10:36:20,842 DEBUG com.epsilon.training.entity.Person  - Person() called
+0    [main] 2021-03-03 10:41:04,005 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:41:04,007 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:41:04,007 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:41:04,007 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:41:04,007 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:41:04,007 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+4    [main] 2021-03-03 10:41:04,009 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+5    [main] 2021-03-03 10:41:04,010 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=null, email=null, city=null]]
+0    [main] 2021-03-03 10:41:41,737 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:41:41,739 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:41:41,739 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:41:41,739 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:41:41,739 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 10:41:41,739 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+4    [main] 2021-03-03 10:41:41,741 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+6    [main] 2021-03-03 10:41:41,743 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 10:42:43,066 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:42:43,068 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:42:43,068 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:42:43,068 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:42:43,068 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:42:43,068 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+5    [main] 2021-03-03 10:42:43,071 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+6    [main] 2021-03-03 10:42:43,072 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 10:43:10,701 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:43:10,703 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:43:10,703 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:43:10,703 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:43:10,703 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 10:43:10,703 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+4    [main] 2021-03-03 10:43:10,705 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+5    [main] 2021-03-03 10:43:10,706 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 10:51:10,455 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:51:10,457 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:51:10,457 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:51:10,457 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:51:10,457 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 10:51:10,457 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+4    [main] 2021-03-03 10:51:10,459 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+5    [main] 2021-03-03 10:51:10,460 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 10:54:27,957 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:54:27,959 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:54:27,959 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:54:27,959 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:54:27,959 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 10:54:27,959 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+5    [main] 2021-03-03 10:54:27,962 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+6    [main] 2021-03-03 10:54:27,963 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 10:57:40,711 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:57:40,713 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:57:40,713 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:57:40,713 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:57:40,713 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 10:57:40,713 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+4    [main] 2021-03-03 10:57:40,715 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+6    [main] 2021-03-03 10:57:40,717 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 10:58:17,899 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with default constructor
+2    [main] 2021-03-03 10:58:17,901 DEBUG com.epsilon.training.entity.Person  - Person() called
+2    [main] 2021-03-03 10:58:17,901 DEBUG com.epsilon.training.entity.Employee  - Employee() called
+2    [main] 2021-03-03 10:58:17,901 DEBUG com.epsilon.training.programs.CreateEmployee  - creating an employee with parameterized constructor
+2    [main] 2021-03-03 10:58:17,901 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 10:58:17,901 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+4    [main] 2021-03-03 10:58:17,903 DEBUG com.epsilon.training.programs.CreateEmployee  - e1 is Employee [id=0, salary=0.0, department=null, extends=Person [name=null, email=null, city=null]]
+5    [main] 2021-03-03 10:58:17,904 DEBUG com.epsilon.training.programs.CreateEmployee  - e2 is Employee [id=1023, salary=2300.0, department=ADMIN, extends=Person [name=John Doe, email=johndoe@xmpl.com, city=Dallas]]
+0    [main] 2021-03-03 11:16:13,422 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+1    [main] 2021-03-03 11:16:13,423 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+1    [main] 2021-03-03 11:16:13,423 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 11:16:13,424 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Employee is true
+2    [main] 2021-03-03 11:16:13,424 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Person is true
+2    [main] 2021-03-03 11:16:13,424 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Object is true
+2    [main] 2021-03-03 11:16:13,424 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Employee is true
+3    [main] 2021-03-03 11:16:13,425 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Person is true
+3    [main] 2021-03-03 11:16:13,425 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Object is true
+0    [main] 2021-03-03 11:24:52,374 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+1    [main] 2021-03-03 11:24:52,375 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+1    [main] 2021-03-03 11:24:52,375 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 11:24:52,376 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Employee is true
+3    [main] 2021-03-03 11:24:52,377 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Person is true
+3    [main] 2021-03-03 11:24:52,377 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Object is true
+3    [main] 2021-03-03 11:24:52,377 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Employee is true
+3    [main] 2021-03-03 11:24:52,377 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Person is true
+3    [main] 2021-03-03 11:24:52,377 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Object is true
+1    [main] 2021-03-03 11:25:04,674 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 11:25:04,675 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+2    [main] 2021-03-03 11:25:04,675 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+3    [main] 2021-03-03 11:25:04,676 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Employee is true
+3    [main] 2021-03-03 11:25:04,676 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Person is true
+3    [main] 2021-03-03 11:25:04,676 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Object is true
+3    [main] 2021-03-03 11:25:04,676 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Employee is true
+4    [main] 2021-03-03 11:25:04,677 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Person is true
+4    [main] 2021-03-03 11:25:04,677 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Object is true
+0    [main] 2021-03-03 11:26:56,319 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+1    [main] 2021-03-03 11:26:56,320 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+2    [main] 2021-03-03 11:26:56,321 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+3    [main] 2021-03-03 11:26:56,322 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Employee is true
+3    [main] 2021-03-03 11:26:56,322 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Person is true
+3    [main] 2021-03-03 11:26:56,322 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Object is true
+3    [main] 2021-03-03 11:26:56,322 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Employee is true
+3    [main] 2021-03-03 11:26:56,322 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Person is true
+3    [main] 2021-03-03 11:26:56,322 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Object is true
+5    [main] 2021-03-03 11:26:56,324 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Employee is true
+5    [main] 2021-03-03 11:26:56,324 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Employee is false
+5    [main] 2021-03-03 11:26:56,324 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Employee is false
+6    [main] 2021-03-03 11:26:56,325 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Employee is true
+0    [main] 2021-03-03 11:27:31,429 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+2    [main] 2021-03-03 11:27:31,431 DEBUG com.epsilon.training.entity.Employee  - Employee(id, name, email, city, salary, department) called
+2    [main] 2021-03-03 11:27:31,431 DEBUG com.epsilon.training.entity.Person  - Person(name, email, city) called
+4    [main] 2021-03-03 11:27:31,433 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Employee is true
+4    [main] 2021-03-03 11:27:31,433 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Person is true
+4    [main] 2021-03-03 11:27:31,433 DEBUG com.epsilon.training.programs.PolymorphismDemo  - e1 instanceof Object is true
+4    [main] 2021-03-03 11:27:31,433 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Student is true
+4    [main] 2021-03-03 11:27:31,433 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Person is true
+4    [main] 2021-03-03 11:27:31,433 DEBUG com.epsilon.training.programs.PolymorphismDemo  - s1 instanceof Object is true
+7    [main] 2021-03-03 11:27:31,436 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Employee is true
+7    [main] 2021-03-03 11:27:31,436 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Student is false
+7    [main] 2021-03-03 11:27:31,436 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Employee is false
+7    [main] 2021-03-03 11:27:31,436 DEBUG com.epsilon.training.programs.PolymorphismDemo  - p1 instanceof Student is true
