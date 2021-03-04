@@ -24,5 +24,5 @@ public final class KeyboardUtil {
 		Scanner sc = new Scanner(System.in);
 		return sc.nextLine();
 	}
-
+	
 }
