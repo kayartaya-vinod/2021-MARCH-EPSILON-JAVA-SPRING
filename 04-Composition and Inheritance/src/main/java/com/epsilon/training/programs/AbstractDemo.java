@@ -8,6 +8,7 @@ abstract class Animal {
 	// valid method body for this function
 }
 
+
 class Bat extends Animal {
 
 	void makeSound() {
