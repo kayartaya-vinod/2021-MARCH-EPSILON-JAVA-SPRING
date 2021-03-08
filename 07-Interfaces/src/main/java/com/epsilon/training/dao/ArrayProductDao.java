@@ -22,8 +22,8 @@ public class ArrayProductDao implements ProductDao {
 		
 		// TODO validate the product before proceeding further
 		
-		if (index < MAX_PRODUCTS - 1) {
-			this.products[++index] = product;
+		if (index < MAX_PRODUCTS) {
+			this.products[index++] = product;
 		}
 		else {
 			throw new RuntimeException("Exceeded the maximum allowed products");

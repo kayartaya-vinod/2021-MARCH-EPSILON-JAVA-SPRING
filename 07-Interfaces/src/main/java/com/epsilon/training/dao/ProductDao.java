@@ -1,5 +1,7 @@
 package com.epsilon.training.dao;
 
+import java.util.List;
+
 import com.epsilon.training.entity.Product;
 
 public interface ProductDao {
@@ -16,6 +18,13 @@ public interface ProductDao {
 
 	// Queries (TBD later)
 	
+	public List<Product> getAll();
+	
+	public List<Product> getByPriceRange(double min, double max);
+	
+	public List<Product> getByBrand(String brand);
+	
+	public List<Product> getByCategory(String category);
 	
 
 }

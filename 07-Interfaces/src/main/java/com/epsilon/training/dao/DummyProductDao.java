@@ -9,7 +9,7 @@ public class DummyProductDao implements ProductDao {
 
 	@Override
 	public void addProduct(Product product) {
-		log.debug("Adding a product");
+		log.debug("DummyProductDao.addProduct() called");
 	}
 
 	@Override
