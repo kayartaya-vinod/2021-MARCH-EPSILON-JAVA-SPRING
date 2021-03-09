@@ -31,6 +31,9 @@ public class UsingTreeSet {
 //				return b1.getIsbn() - b2.getIsbn();
 //			}
 //		};
+		
+		// arrow function (lambda expression/function) can be used only as a
+		// substitution of the (only) abstract function in a function interface
 
 		// Set<Book> books = new TreeSet<>((b1, b2) -> b1.getIsbn() - b2.getIsbn());
 		
