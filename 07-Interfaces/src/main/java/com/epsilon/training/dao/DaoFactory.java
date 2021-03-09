@@ -30,7 +30,7 @@ public final class DaoFactory {
 		case "JDBC":
 		case "MONGODB":
 		case "CSV":
-			throw new RuntimeException("Requested implementation of ProductDao not available yet.");
+			return new CsvProductDao();
 		default:
 			throw new RuntimeException("Invalid discriminator");
 		}
