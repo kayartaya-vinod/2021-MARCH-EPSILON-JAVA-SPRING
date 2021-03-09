@@ -110,12 +110,14 @@ public class CsvProductDao implements ProductDao {
 
 	@Override
 	public void updateProduct(Product product) throws DaoException {
-
+		products.replace(product.getId(), product);
+		writeToFile();
 	}
 
 	@Override
 	public void deleteProduct(int id) throws DaoException {
-
+		products.remove(id);
+		writeToFile();
 	}
 
 	@Override
