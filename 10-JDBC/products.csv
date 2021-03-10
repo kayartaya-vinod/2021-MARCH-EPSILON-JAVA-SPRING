@@ -1,0 +1,3 @@
+category,name,brand,description,quantity_per_unit,unit_price,picture,discount
+vegitable,Onion,Fresho,Onion - Medium,1 KG approx. 10 to 12 nos,45,https://vinbasket.herokuapp.com/product-images/10000148_13-fresho-onion-medium.jpg,3
+vegitable,Potato,Fresho,Potato,1 KG approx. 9 to 10 nos,25,https://vinbasket.herokuapp.com/product-images/10000159_14-fresho-potato.jpg,2
