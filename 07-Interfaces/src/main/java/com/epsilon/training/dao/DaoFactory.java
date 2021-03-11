@@ -28,11 +28,12 @@ public final class DaoFactory {
 		case "ARRAY":
 			return new ArrayProductDao();
 		case "JDBC":
-		case "MONGODB":
+			return new JdbcProductDao();
 		case "CSV":
 			return new CsvProductDao();
 		case "SERIALIZED":
 			return new SerializedProductDao();
+		case "MONGODB":
 		default:
 			throw new RuntimeException("Invalid discriminator");
 		}
