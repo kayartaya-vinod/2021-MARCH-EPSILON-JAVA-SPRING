@@ -2,6 +2,7 @@ package training.utils;
 
 import java.util.Scanner;
 
+@SuppressWarnings("resource")
 public final class KeyboardUtil {
 
 	// when ever you have a class (utility) with out any member variables

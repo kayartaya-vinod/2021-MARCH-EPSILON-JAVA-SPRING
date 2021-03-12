@@ -21,7 +21,7 @@ public class CheckedAndUncheckedExceptions {
 			reader = new FileReader(filename);
 			log.debug("The file \"{}\" exists!", filename);
 			int n = 100 / 0; // goes to finally, closes reader, and then breaks execution
-
+			System.out.println(n);
 		} catch (FileNotFoundException e) {
 			log.warn("The file \"{}\" does not seem to exist!", filename);
 		} finally {

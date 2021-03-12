@@ -1,6 +1,5 @@
 package com.epsilon.training.programs;
 
-import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
