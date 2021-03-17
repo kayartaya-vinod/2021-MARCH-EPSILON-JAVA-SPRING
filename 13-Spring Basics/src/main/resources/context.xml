@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="dummy" scope="prototype"
+		class="com.epsilon.training.dao.DummyProductDao">
+	</bean>
+
+	<bean name="jdbc,jdbcProductDao,dao"
+		class="com.epsilon.training.dao.JdbcProductDao">
+
+		<!-- property or setter injection (spring invokes appropriate setters by 
+			passing the values -->
+		<property name="username" value="vinod" />
+		<property name="password" value="Welcome#123" />
+		<property name="driverClassName" value="org.h2.Driver" />
+		<property name="url"
+			value="jdbc:h2:tcp://localhost/~/epsilontraining" />
+
+	</bean>
+
+	<bean name="dao1" class="com.epsilon.training.dao.JdbcProductDao">
+		<!-- constructor based injection; should avoid -->
+		<constructor-arg name="username" value="root" />
+		<constructor-arg name="password" value="Welcome#123" />
+		<constructor-arg index="0"
+			value="jdbc:mysql://localhost/epsilontraining" />
+		<constructor-arg value="com.mysql.cj.jdbc.Driver" />
+	</bean>
+	
+	
+	<bean name="dao2" class="com.epsilon.training.dao.JdbcProductDao" autowire="byName">
+		<!-- manual wiring using setter injection -->
+		<!-- <property name="dataSource" ref="dbcp" /> -->
+	</bean>
+	
+
+	<bean name="dbcp" class="org.apache.commons.dbcp2.BasicDataSource">
+		<!-- initialize the bean by using setter properties -->
+		<property name="username" value="vinod" />
+		<property name="password" value="Welcome#123" />
+		<property name="driverClassName" value="org.h2.Driver" />
+		<property name="url"
+			value="jdbc:h2:tcp://localhost/~/epsilontraining" />
+			
+		<property name="maxTotal" value="50" />
+		<property name="initialSize" value="5" />
+		<property name="maxIdle" value="5" />
+		<property name="maxWaitMillis" value="3000" />
+	</bean>
+
+	<bean name="mysqlcp,dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+		<!-- initialize the bean by using setter properties -->
+		<property name="username" value="root" />
+		<property name="password" value="Welcome#123" />
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://localhost/epsilontraining" />
+			
+		<property name="maxTotal" value="50" />
+		<property name="initialSize" value="5" />
+		<property name="maxIdle" value="5" />
+		<property name="maxWaitMillis" value="3000" />
+	</bean>
+
+</beans>

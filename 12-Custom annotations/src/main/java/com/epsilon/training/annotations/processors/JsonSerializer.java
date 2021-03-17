@@ -40,6 +40,7 @@ public class JsonSerializer {
 					
 					String label = f.getName();
 					
+					
 					JsonProperty ann = f.getAnnotation(JsonProperty.class);
 					if(ann!=null) {
 						label = ann.label();
@@ -47,6 +48,8 @@ public class JsonSerializer {
 							label = f.getName();
 						}
 					}
+					
+					Class<?> c = f.get(obj).getClass();
 					
 					f.setAccessible(true);
 					String kv = String.format("\"%s\": \"%s\"", label, f.get(obj));
