@@ -1,0 +1,88 @@
+http://localhost:8080/training/api/products/80
+
+###
+
+http://localhost:8080/training/api/products/25
+
+###
+
+GET /training/api/products/79 HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+
+###
+
+
+GET /training/api/products/79 HTTP/1.1
+Host: localhost:8080
+Accept: application/xml
+
+###
+
+GET /training/api/products HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /training/api/products HTTP/1.1
+Host: localhost:8080
+Accept: application/xml
+
+###
+
+
+GET /training/api/products?brand=Zespri HTTP/1.1
+Host: localhost:8080
+Accept: application/json
+
+###
+
+POST /training/api/products
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Potato",
+  "description": "Organically grown potatoes - Grade A",
+  "brand": "Malnad",
+  "category": "vegetable",
+  "quantityPerUnit": "1 KG, approx.",
+  "unitPrice": 67.0,
+  "discount": 5.0,
+  "picture": "no-picture"
+}
+
+###
+PUT /training/api/products/25
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Orange",
+  "description": "Orange - Nagpur",
+  "brand": "Fresho",
+  "category": "fruit",
+  "quantityPerUnit": "500 GM, approx. 2 to 3 nos",
+  "unitPrice": 16.0,
+  "discount": 13.0,
+  "picture": "http://kvinod.com/resources/product-images/10000267-2_8-fresho-orange-nagpur.jpg"
+}
+
+###
+PATCH /training/api/products/25
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+  "unitPrice": 26.0,
+  "discount": 3.0,
+}
+
+###
+DELETE /training/api/products/25
+Host: localhost:8080
+Accept: application/json

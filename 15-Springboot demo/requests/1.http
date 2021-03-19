@@ -1,0 +1,116 @@
+GET /api/hello/Vinod
+Host: localhost:8080
+Accept: text/plain
+
+###
+
+GET /api/hello/
+Host: localhost:8080
+Accept: text/plain
+
+###
+GET /api/hello/Vinod
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/hello/
+Host: localhost:8080
+Accept: application/json
+
+###
+
+
+GET /api/products/
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products/8
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products/filter?brand=Malnad
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products/filter?category=fruit
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products/filter?min=10&max=15
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/customers?_limit=10&_page=1
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/customers/1001
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/customers/search?email=rseedcb@globo.com
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/customers/search?phone=212-570-9885
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/customers/search?city=Springfield
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/customers/search?state=Illinois
+Host: localhost:8080
+Accept: application/json
+
+###
+POST /api/customers
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstname": "Vinod",
+    "lastname": "Kumar",
+    "gender": "Male",
+    "email": "vinod@vinod.co",
+    "phone": "973-142-4784",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "zipcode": "560078"
+  }
+###
+PUT /api/customers/1001
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+    "firstname": "Vinod",
+    "lastname": "Kumar Kayartaya",
+    "gender": "Male",
+    "email": "vinod@vinod.co",
+    "phone": "973-142-4784",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "zipcode": "560078"
+  }
+###
+

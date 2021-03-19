@@ -49,8 +49,6 @@ public class JsonSerializer {
 						}
 					}
 					
-					Class<?> c = f.get(obj).getClass();
-					
 					f.setAccessible(true);
 					String kv = String.format("\"%s\": \"%s\"", label, f.get(obj));
 					kvList.add(kv);

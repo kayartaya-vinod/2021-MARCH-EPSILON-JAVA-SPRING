@@ -1,5 +1,8 @@
-package com.epsilon.training.config;
+package com.epsilon.training.cfg;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRegistration.Dynamic;
 import javax.sql.DataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
@@ -14,16 +17,53 @@ import org.springframework.orm.hibernate5.HibernateTemplate;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.web.WebApplicationInitializer;
+import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
+import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import com.epsilon.training.entity.Product;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Configuration
 @PropertySource("classpath:jdbc-info.properties")
-@ComponentScan(basePackages = { "com.epsilon.training.dao", "com.epsilon.training.aop" })
-@EnableAspectJAutoProxy // loads AspectJ bean into spring container, which then scans for @Aspect beans,
-						// creates a Proxy based on the available advises
-@EnableTransactionManagement // helps in creating a proxy for transaction management
-public class AppConfig5 {
+@EnableWebMvc
+@EnableAspectJAutoProxy
+@EnableTransactionManagement
+@ComponentScan(basePackages = { "com.epsilon.training.web", "com.epsilon.training.dao", "com.epsilon.training.aop" })
+public class AppConfig  implements WebApplicationInitializer, WebMvcConfigurer {
+
+	public AppConfig() {
+		log.debug("AppConfig instantiated!");
+	}
+	
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		configurer.enable();
+	}
+
+	// the parameter "servletContext" represents the web server (tomcat)
+	@Override
+	public void onStartup(ServletContext servletContext) throws ServletException {
+		log.debug("AppConfig.onStartup() called");
+		// we are creating a new spring container (which we did in our main program in
+		// the past),
+		// and register this AppConfig with the container
+		AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
+		ctx.register(AppConfig.class);
+
+		// create the front-controller to receive all incoming requests, that will be
+		// dispatched to appropriate handler methods of controllers
+		
+		Dynamic ds = servletContext.addServlet("ds", new DispatcherServlet(ctx));
+		ds.addMapping("/");
+		ds.setLoadOnStartup(1);
+	}
+	
 	@Value("${jdbc.connection.driverClassName}")
 	private String driverClassName;
 	@Value("${jdbc.connection.url}")
@@ -75,4 +115,5 @@ public class AppConfig5 {
 
 		return bds;
 	}
+
 }
